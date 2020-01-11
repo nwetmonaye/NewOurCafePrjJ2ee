@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<!-- <welcome-file-list>
+		<welcome-file>master.jsp</welcome-file>
+	</welcome-file-list> -->
+	<servlet>
+		<servlet-name>custlogin</servlet-name>
+		<servlet-class>
+			Custloginformenu
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>custlogin</servlet-name>
+		<url-pattern>/custlogin</url-pattern>
+	</servlet-mapping>
+	
+	<!-- <servlet>
+		<servlet-name>cafereg</servlet-name>
+		<servlet-class>
+			Registerpage
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cafereg</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping> -->
+	
+	<servlet>
+		<servlet-name>admin</servlet-name>
+		<servlet-class>
+			AdminPage
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>admin</servlet-name>
+		<url-pattern>/adminlogin</url-pattern>
+	</servlet-mapping> 
+	<!-- <servlet>
+		<servlet-name>add</servlet-name>
+		<servlet-class>AddBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>add</servlet-name>
+		<url-pattern>/AddBookServlet</url-pattern>
+	</servlet-mapping> -->
+	
+	<!-- <servlet>
+		<servlet-name>Menuinsert</servlet-name>
+		<servlet-class>insertpagelist</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Menuinsert</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping> -->
+	
+	
+	<!-- <servlet>
+		<servlet-name>ordrlogin</servlet-name>
+		<servlet-class>nextloginpage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ordrlogin</servlet-name>
+		<url-pattern>/order</url-pattern>
+	</servlet-mapping>  -->
+	
+	
+	</web-app> 
